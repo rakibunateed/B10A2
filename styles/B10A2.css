@@ -4,10 +4,52 @@
 .inter {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: bold;
     font-style: normal;
 }
 
 body{
     background-color: rgba(0, 0, 0, 1);
+}
+
+header{
+    background-color: #191A1B;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-title{
+    color: #E6533C;
+    font-size:2.25rem ;
+    font-weight: 800;
+}
+
+.nav-links {
+  display: flex;
+  text-decoration: none;
+  border: 1px solid #333333;
+  border-radius: 39px;
+}
+
+.nav-items {
+  list-style: none;
+  margin-right: 30px;
+  padding: 12px 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #FFFFFF; 
+}
+
+#unique{
+    background-color: #E6533C;
+    border: 1px solid none;
+    border-radius: 46px;
 }
