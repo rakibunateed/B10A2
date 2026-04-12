@@ -215,6 +215,38 @@ main {
     border-radius: 100px;
 }
 
+.run {
+    margin-top: 100px;
+    display: flex;
+    background-color: #222222;
+    border-radius: 18px;
+    padding: 50px 90px;
+}
+
+.run-title {
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 25px;
+}
+
+.run-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 25px;
+}
+
+.run-content {
+    margin-right: 210px;
+}
+
+#run-img {
+    width: 566px;
+    height: 312px;
+    border-radius: 18px;
+}
+
 
 
 
@@ -236,7 +268,9 @@ main {
 
 
 @media screen and (max-width: 576px) {
-    .banner {
+
+    .banner,
+    .run {
         flex-direction: column;
     }
 
@@ -298,6 +332,21 @@ main {
     .habit-content {
         margin: auto 25px;
     }
+
+    .run-content {
+        margin-right: 0;
+    }
+
+    .run {
+        padding-left: 40px;
+    }
+
+    #run-img {
+    width: 287px;
+    height: 170px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
 
 
 }
