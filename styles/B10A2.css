@@ -159,7 +159,61 @@ header {
     color: #FFFFFF;
 }
 
+main {
+    max-width: 1300px;
+    margin: 0 auto;
+}
 
+.habit {
+
+    margin-top: 100px;
+}
+
+.habit-talks {
+    text-align: center;
+}
+
+.habit-title {
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.habit-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 55px;
+}
+
+.fitnes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+.habit-content {
+    align-items: center;
+    text-align: center;
+}
+
+.content-title {
+    color: #FFFFFF;
+    font-size: 1.125rem;
+    font-weight: 600;
+    padding: 30px 0 8px;
+}
+
+.content-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.img-habit {
+    border-radius: 100px;
+}
 
 
 
@@ -222,16 +276,28 @@ header {
     }
 
     #up {
-    position: relative;
-    top: 150px;
-    left: 200px;
-}
+        position: relative;
+        top: 150px;
+        left: 200px;
+    }
 
-#down {
-    position: relative;
-    bottom: 330px;
-    right: -30px;
-}
+    #down {
+        position: relative;
+        bottom: 330px;
+        right: -30px;
+    }
+
+    .fitnes {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .habit-talks {
+        margin: auto 25px;
+    }
+
+    .habit-content {
+        margin: auto 25px;
+    }
 
 
 }
