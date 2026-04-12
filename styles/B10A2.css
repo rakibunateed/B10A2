@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
 .inter {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -8,48 +17,228 @@
     font-style: normal;
 }
 
-body{
+.metal {
+    font-family: "Metal Mania", system-ui;
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
     background-color: rgba(0, 0, 0, 1);
 }
 
-header{
+header {
     background-color: #191A1B;
+    box-shadow: 0 4px 4px 0 #000000;
+}
+
+.primary-btn {
+    background-color: #E6533C;
+    color: #FFFFFF;
+    border: 1px solid #E6533C;
+    border-radius: 42px;
+    padding: 16px 45px;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.non-primary {
+    background-color: #191A1B;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 42px;
+    padding: 16px 45px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-left: 20px;
 }
 
 .navbar {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 55px;
 }
 
-.nav-title{
+.nav-title {
     color: #E6533C;
-    font-size:2.25rem ;
+    font-size: 2.25rem;
     font-weight: 800;
 }
 
 .nav-links {
-  display: flex;
-  text-decoration: none;
-  border: 1px solid #333333;
-  border-radius: 39px;
+    display: flex;
+    text-decoration: none;
+    border: 1px solid #333333;
+    border-radius: 39px;
 }
 
 .nav-items {
-  list-style: none;
-  margin-right: 30px;
-  padding: 12px 20px;
+    list-style: none;
+    margin-right: 30px;
+    padding: 12px 20px;
 }
 
 .nav-link {
-  text-decoration: none;
-  font-size: 1.125rem;
-  font-weight: 600;
-  color: #FFFFFF; 
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #FFFFFF;
 }
 
-#unique{
+#unique {
     background-color: #E6533C;
     border: 1px solid none;
     border-radius: 46px;
+}
+
+.banner {
+    display: flex;
+    max-width: 1300px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    margin-right: 130px;
+}
+
+.banner-title {
+    font-size: 4.875rem;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin-bottom: 28px;
+}
+
+.banner-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-bottom: 28px;
+}
+
+.btn {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid #191A1B;
+    border-radius: 12px;
+    padding: 17px 24px;
+}
+
+.big {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.small {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+#up {
+    position: relative;
+    top: 220px;
+    left: 200px;
+}
+
+#down {
+    position: relative;
+    bottom: 170px;
+    right: 40px;
+}
+
+.nav-title {
+    display: flex;
+    align-items: center;
+}
+
+.fa-solid {
+    margin-left: 230px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .banner {
+        flex-direction: column;
+    }
+
+    .banner-content {
+        margin: 50px auto 20px 20px;
+
+    }
+
+    .banner-title {
+        font-size: 3.5rem;
+        font-weight: 900;
+    }
+
+    .non-primary {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .btn {
+        padding: 10px;
+    }
+
+    .big {
+        font-size: 2rem;
+        font-weight: bold;
+        color: #FFFFFF;
+    }
+
+    .small {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    #up {
+    position: relative;
+    top: 150px;
+    left: 200px;
+}
+
+#down {
+    position: relative;
+    bottom: 330px;
+    right: -30px;
+}
+
+
+}
+
+@media screen and (min-width: 992px) {
+    .fa-solid {
+        display: none;
+    }
+
 }
