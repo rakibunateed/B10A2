@@ -310,7 +310,7 @@ th {
     text-align: left;
 }
 
-.bmi-calculate{
+.bmi-calculate {
     margin-bottom: 50px;
 }
 
@@ -354,6 +354,105 @@ th {
 }
 
 
+.team {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+
+.team-title {
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 14px;
+}
+
+.team-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.team-member {
+    max-width: 671px;
+    margin: 88px auto 58px;
+    text-align: center;
+}
+
+.member {
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    padding: 20px 0 20px 20px;
+    margin-bottom: 88px;
+}
+
+.trainer {
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+}
+
+.name {
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.subtitle {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.bell {
+    position: relative;
+    bottom: 460px;
+    right: -35px;
+}
+
+.Cameron {
+    position: relative;
+    bottom: 505px;
+    right: -380px;
+}
+
+.Darrell {
+    position: relative;
+    bottom: 545px;
+    right: -730px;
+}
+
+.Dianne {
+    position: relative;
+    bottom: 300px;
+    right: -35px;
+}
+
+.Cody {
+    position: relative;
+    bottom: 340px;
+    right: -380px;
+}
+
+.Theresa {
+    position: relative;
+    bottom: 390px;
+    right: -730px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+
 
 
 
@@ -377,7 +476,9 @@ th {
 @media screen and (max-width: 576px) {
 
     .banner,
-    .run, .mid-work, .field {
+    .run,
+    .mid-work,
+    .field {
         flex-direction: column;
     }
 
@@ -428,7 +529,8 @@ th {
         right: -30px;
     }
 
-    .fitnes {
+    .fitnes,
+    .member {
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -468,39 +570,96 @@ th {
     }
 
     .bmi-heading {
-    padding: 0 20px;
-}
+        padding: 0 20px;
+    }
 
-.bmi-chart {
-    margin-right: 0px;
-}
+    .bmi-chart {
+        margin-right: 0px;
+    }
 
-.chart-title {
-    font-size: 1.4rem;
-    padding-left: 20px;
-    
-}
+    .chart-title {
+        font-size: 1.4rem;
+        padding-left: 20px;
 
-table {
-    border-collapse: collapse;
-    width: 310px;
-    margin: 0 20px;
-}
+    }
 
-.calculate-title {
-    font-size: 1.4rem;
-}
+    table {
+        border-collapse: collapse;
+        width: 310px;
+        margin: 0 20px;
+    }
 
-.calculation-content {
-    width: 354px;
-    margin-left: 20px;
-}
+    .calculate-title {
+        font-size: 1.4rem;
+    }
 
-.field {
-    width: 353px;
-    gap: 20px;
-    margin-left: 20px;
+    .calculation-content {
+        width: 354px;
+        margin-left: 20px;
+    }
 
+    .field {
+        width: 353px;
+        gap: 20px;
+        margin-left: 20px;
+
+    }
+
+    #bmi-btn {
+        margin-left: 20px;
+    }
+
+    .team{
+        margin-bottom: 0;
+    }
+
+    .team-member {
+        align-items: center;
+        padding-left: 80px;
+    }
+
+    .member {
+        padding-left: 45px;
+    }
+
+    .bell {
+        position: relative;
+        bottom: 1630px;
+        right: -60px;
+    }
+
+    .Cameron {
+        position: relative;
+        bottom: 1385px;
+        right: -60px;
+    }
+
+    .Darrell {
+        position: relative;
+        bottom: 1140px;
+        right: -60px;
+    }
+
+    .Dianne {
+        position: relative;
+        bottom: 890px;
+        right: -60px;
+    }
+
+    .Cody {
+        position: relative;
+        bottom: 650px;
+        right: -60px;
+    }
+
+    .Theresa {
+        position: relative;
+        bottom: 400px;
+        right: -60px;
+    }
+
+   html, body {
+    overflow-x: hidden;
 }
 
 }
