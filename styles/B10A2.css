@@ -447,6 +447,82 @@ body {
     overflow-x: hidden;
 }
 
+footer {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.foot-fitness {
+    max-width: 1058px;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    gap: 130px;
+    align-items: center;
+}
+
+.fitness {
+    width: 443px;
+}
+
+.fitness-title {
+    color: #E6533C;
+    font-size: 4.375rem;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.fitness-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.start-title {
+    color: rgba(255, 255, 255, 1);
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 39px;
+}
+
+.start-tag {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.175rem;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+
+
+/* #line {
+    border: none;      
+    height: 2px;   
+    color: rgba(255, 255, 255, 0.1);
+    padding-bottom: 30px;
+    width: 80%;         
+} */
+
+
+#line {
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    max-width: 1058px;
+    margin: 0 auto;
+    padding-bottom: 3px;
+    justify-content: center;
+
+}
+
+.copy-right {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.25rem;
+    font-weight: 400;
+    padding-bottom: 35px;
+    padding-top: 35px;
+    max-width: 318px;
+    margin: 0 auto;
+}
 
 
 
@@ -478,7 +554,8 @@ body {
     .banner,
     .run,
     .mid-work,
-    .field {
+    .field,
+    .foot-fitness {
         flex-direction: column;
     }
 
@@ -609,7 +686,7 @@ body {
         margin-left: 20px;
     }
 
-    .team{
+    .team {
         margin-bottom: 0;
     }
 
@@ -658,9 +735,34 @@ body {
         right: -60px;
     }
 
-   html, body {
-    overflow-x: hidden;
-}
+    Html,body {
+        overflow-x: hidden;
+    }
+
+    .foot-fitness{
+        gap: 50px;
+    }
+
+    .fitness{
+        width: 317px;
+        padding-right: 40px;
+        margin-left: 0;
+    }
+
+    .start-title{
+        padding-bottom: 20px;
+    }
+
+    .first-started{
+        padding-right: 180px;
+    }
+    .second-started{
+        padding-right: 180px;
+    }
+
+    #line{
+        width: 354px;
+    }
 
 }
 
